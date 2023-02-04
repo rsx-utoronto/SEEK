@@ -19,5 +19,5 @@ sudo apt-get install git
 ```
 git clone https://github.com/rsx-utoronto/SEEK.git
 ```
-![Newlogo_patch_png](https://user-images.githubusercontent.com/57568376/197289975-dbff269c-2bbe-4b73-836b-d9c9bd20a6d6.png =250x250)
+![Newlogo_patch_png](https://user-images.githubusercontent.com/57568376/197289975-dbff269c-2bbe-4b73-836b-d9c9bd20a6d6.png)
 
