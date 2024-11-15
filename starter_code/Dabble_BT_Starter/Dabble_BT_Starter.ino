@@ -16,12 +16,6 @@ Finally, set your serial monitor to 250000 baud to match the setup below
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(enR, OUTPUT);
-  pinMode(inAR, OUTPUT);
-  pinMode(inBR, OUTPUT);
-  pinMode(enL, OUTPUT);
-  pinMode(inAL, OUTPUT);
-  pinMode(inBL, OUTPUT);
   Serial.begin(250000);
   Dabble.begin(9600);
 
