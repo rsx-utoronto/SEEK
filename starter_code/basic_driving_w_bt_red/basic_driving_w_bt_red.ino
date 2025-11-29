@@ -51,7 +51,7 @@ int DIR_L_B = 12;    // Left Direction pin that will indicate backwards movement
 int PWM_L = 11;      // Speed controll pin. *** This pin must be plugged into an output pin on the arduino that is labled PWM ***.
 
 int DIR_R_F = 4;     // Right Direction pin that will indicate forewards movement (1 for forewards, 0 for backwards)
-int DIR_R_B = 2;     // Left Direction pin that will indicate backwards movement (1 for backwards, 0 for forewards).
+int DIR_R_B = 2;     // Right Direction pin that will indicate backwards movement (1 for backwards, 0 for forewards).
 int PWM_R = 3;       // Speed controll pin. *** This pin must be plugged into an output pin on the arduino that is labled PWM ***.
 
 
