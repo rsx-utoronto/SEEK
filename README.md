@@ -1,5 +1,5 @@
 # SEEK
-Hello participants of SEEK and SEEK Jr. 2023! We hope you are super hyped for building some amazing rovers this year. In preparation for the competition and to get you started on your own code, this repo provides you with some starter code/examples with bluetooth modules, sensors, and motors! Please refer to the instructions below to get this repo on your local computer. 
+Hello participants of SEEK and SEEK Jr.! We hope you are super hyped for building some amazing rovers this year. In preparation for the competition and to get you started on your own code, this repo provides you with some starter code/examples with bluetooth modules, sensors, and motors! Please refer to the instructions below to get this repo on your local computer. 
 
 ## Step 1: Install git 
 ### Windows / macOS 
