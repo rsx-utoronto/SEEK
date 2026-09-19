@@ -1,5 +1,7 @@
-**Step 1: Ensure Serial Baud Rate is 9600 and the Serial Monitor is set to No Line Ending**
-**Step 2: Run the file and type 'AT' into Serial Monitor, wait for the response 'OK'**
-**Step 3: Type 'AT+NAMESEEK_KIT#' , replace '#' with team number, wait for the response 'OKsetname'**
-**Step 4: Power Cycle Arduino and Module**
-**Step 5: Connect to Bluetooth and ensure device name has changed from HC_06 to new name**
+## Bluetooth Module Configuration Steps
+
+* **Step 1:** Ensure the serial baud rate is set to **9600** and the Serial Monitor line ending is set to **No Line Ending**.
+* **Step 2:** Run your sketch, type `AT` into the Serial Monitor, and wait for the response **`OK`**.
+* **Step 3:** Type `AT+NAMESEEK_KIT#` (replace `#` with your team number) and wait for the response **`OKsetname`**.
+* **Step 4:** Power cycle your Arduino and Bluetooth module (unplug and plug back in).
+* **Step 5:** Connect via Bluetooth and verify that the device name has changed from `HC_06` to your new custom name.
