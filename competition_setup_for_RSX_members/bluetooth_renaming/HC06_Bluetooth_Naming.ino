@@ -1,0 +1,25 @@
+#include <SoftwareSerial.h>
+
+// HC-06 wiring: Tx -> D2, Rx -> D3
+SoftwareSerial BTSerial(2, 3); // RX, TX  (Arduino D2 reads HC-06's Tx, D3 drives HC-06's Rx)
+
+void setup() {
+  Serial.begin(9600);      // Serial Monitor baud
+  BTSerial.begin(9600);    // HC-06 default baud - change if yours uses a different one
+
+  Serial.println("AT command passthrough ready.");
+  Serial.println("Make sure the HC-06 is powered but NOT paired to your phone.");
+  Serial.println("Type AT and press send to test the module.");
+}
+
+void loop() {
+  // Forward anything typed in Serial Monitor to the HC-06
+  if (Serial.available()) {
+    BTSerial.write(Serial.read());
+  }
+
+  // Forward anything the HC-06 sends back to the Serial Monitor
+  if (BTSerial.available()) {
+    Serial.write(BTSerial.read());
+  }
+}

@@ -21,7 +21,7 @@ git clone https://github.com/rsx-utoronto/SEEK.git
 ```
 
 ## Step 2: Get your individual sensors and actuators working
-We've sent you four technical modules that should give you what you need to get started:
+We've sent you four technical modules that should give you what you need to get started. Everything you need should be in the *starter_code* folder:
 * IR_sensor_example provides a means of testing your IR sensor.
 * Dabble_BT starter lets you test that your arduino is responding to gamepad inputs from the Dabble Bluetooth app.
 * ultrasonic_sensor_example demonstrates implementation of the ultrasonic sensor. (Note that you may need to modify the DIST_SCALE to work for your team's sensor.)
@@ -29,7 +29,7 @@ We've sent you four technical modules that should give you what you need to get 
 ## Step 3: Put it all together!
 
 
-
-
-![Newlogo_patch_png](https://user-images.githubusercontent.com/57568376/197289975-dbff269c-2bbe-4b73-836b-d9c9bd20a6d6.png)
-
+## Additional Notes
+You can ignore the 'competition_setup' and 'archive' folders: \
+* *competition_setup_for_rsx_members* contains the code and set-up steps the RSX team uses to give bluetooth modules distinct names before we give them to you. If you do want to change the name of your bluetooth module, feel free to use any of our code / methods!
+* *archive* contains old starter code from before we discovered the Dabble app. You can reference it if you'd like, but keep in mind the bluetooth set-up steps mentioned are now obsolete.
