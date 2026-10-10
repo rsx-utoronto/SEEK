@@ -19,5 +19,17 @@ sudo apt-get install git
 ```
 git clone https://github.com/rsx-utoronto/SEEK.git
 ```
+
+## Step 2: Get your individual sensors and actuators working
+We've sent you four technical modules that should give you what you need to get started:
+* IR_sensor_example provides a means of testing your IR sensor.
+* Dabble_BT starter lets you test that your arduino is responding to gamepad inputs from the Dabble Bluetooth app.
+* ultrasonic_sensor_example demonstrates implementation of the ultrasonic sensor. (Note that you may need to modify the DIST_SCALE to work for your team's sensor.)
+
+## Step 3: Put it all together!
+
+
+
+
 ![Newlogo_patch_png](https://user-images.githubusercontent.com/57568376/197289975-dbff269c-2bbe-4b73-836b-d9c9bd20a6d6.png)
 
