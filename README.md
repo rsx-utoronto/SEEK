@@ -27,9 +27,13 @@ We've sent you four technical modules that should give you what you need to get 
 * ultrasonic_sensor_example demonstrates implementation of the ultrasonic sensor. (Note that you may need to modify the DIST_SCALE to work for your team's sensor.)
 
 ## Step 3: Put it all together!
-
+* We have included the file *basic_driving_w_dabble* for you. This code combines the functionality of Dabble_BT_starter with the motor controller details taught in Technical Module #3
+* From here, you can implement more precise driving capabilities, add sensor feedback in place of operator input for autonomous driving, and ultimately give your rover capabilities that will allow it to compete competition tasks!
 
 ## Additional Notes
-You can ignore the 'competition_setup' and 'archive' folders: \
+You can ignore the 'competition_setup' and 'archive' folders:
 * *competition_setup_for_rsx_members* contains the code and set-up steps the RSX team uses to give bluetooth modules distinct names before we give them to you. If you do want to change the name of your bluetooth module, feel free to use any of our code / methods!
 * *archive* contains old starter code from before we discovered the Dabble app. You can reference it if you'd like, but keep in mind the bluetooth set-up steps mentioned are now obsolete.
+
+
+## We hope you enjoy this hackathon!
