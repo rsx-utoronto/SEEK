@@ -1,7 +1,6 @@
 /*
 
-This code combines the 
-
+This code combines the functionality of Dabble_BT_starter code with the motor controller details taught in Technical Module #3 to help you get your rover driving sooner!
 
 
 Visit https://ai.thestempedia.com/docs/dabble-app/getting-started-with-dabble/
